@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	plot_quals
+	1
+
+[Mon Aug 19 11:51:16 2019]
+rule plot_quals:
+    input: calls/all.vcf
+    output: plots/quals.svg
+    jobid: 0
+
+[Mon Aug 19 11:51:17 2019]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /Users/Jessica/Documents/codehub/snakemake-tutorial/.snakemake/log/2019-08-19T115116.482644.snakemake.log

@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	plot_quals
+	2
+
+[Mon Aug 19 14:41:16 2019]
+rule plot_quals:
+    input: calls/all.vcf
+    output: plots/quals.svg
+    jobid: 1
+
+[Mon Aug 19 14:41:16 2019]
+Error in rule plot_quals:
+    jobid: 1
+    output: plots/quals.svg
+
+RuleException:
+WorkflowError in line 84 of /Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/Snakefile:
+URLError: <urlopen error [Errno 2] No such file or directory: '/Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/scripts/plot-quals.py'>
+  File "/Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/Snakefile", line 84, in __rule_plot_quals
+  File "/Users/Jessica/miniconda3/envs/snakemake-tutorial/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/.snakemake/log/2019-08-19T144116.211014.snakemake.log

@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 7 of /Users/Jessica/Documents/codehub/snakemake-tutorial/Snakefile:
+Missing input files for rule bwa_map:
+data/samples/{{READ_IDS}}.fastq

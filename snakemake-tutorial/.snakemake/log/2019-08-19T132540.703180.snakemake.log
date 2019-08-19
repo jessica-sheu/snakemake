@@ -1,0 +1,3 @@
+KeyError in line 60 of /Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/Snakefile:
+'samples'
+  File "/Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/Snakefile", line 60, in <module>

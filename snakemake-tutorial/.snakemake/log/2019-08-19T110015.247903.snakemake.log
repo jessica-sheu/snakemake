@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	2	samtools_sort
+	2
+
+[Mon Aug 19 11:00:15 2019]
+rule samtools_sort:
+    input: mapped-reads/B.bam
+    output: sorted-reads/B.bam
+    jobid: 1
+    wildcards: sample=B
+
+[Mon Aug 19 11:00:15 2019]
+Finished job 1.
+1 of 2 steps (50%) done
+
+[Mon Aug 19 11:00:15 2019]
+rule samtools_sort:
+    input: mapped-reads/A.bam
+    output: sorted-reads/A.bam
+    jobid: 0
+    wildcards: sample=A
+
+[Mon Aug 19 11:00:15 2019]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /Users/Jessica/Documents/codehub/snakemake-tutorial/.snakemake/log/2019-08-19T110015.247903.snakemake.log

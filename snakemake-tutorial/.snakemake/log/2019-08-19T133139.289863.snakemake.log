@@ -1,0 +1,9 @@
+Building DAG of jobs...
+MissingInputException in line 57 of /Users/Jessica/Documents/codehub/snakemake/snakemake-tutorial/Snakefile:
+Missing input files for rule bcftools_call:
+sorted_reads/C.bam
+sorted_reads/B.bam.bai
+sorted_reads/A.bam
+sorted_reads/B.bam
+sorted_reads/A.bam.bai
+sorted_reads/C.bam.bai
