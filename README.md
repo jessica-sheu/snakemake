@@ -1,1 +1,1 @@
-echo # snakemake
+# snakemake
